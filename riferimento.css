@@ -218,9 +218,18 @@ a {
     }	
 	
 }
-
 @media screen and (min-width: 1172px) {
 	.grid {		
 		grid-template-columns: repeat(3, 300px);
+	}		
+}
+@media screen and (min-width: 1360px) {
+	.grid {		
+		grid-template-columns: repeat(4, 300px);
+	}		
+}
+@media screen and (min-width: 1692px) {
+	.grid {		
+		grid-template-columns: repeat(5, 300px);
 	}		
 }
